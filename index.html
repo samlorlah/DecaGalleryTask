@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Gallery</title>
+  <style>
+    * {
+      margin: 10px;
+    }
+
+    .container {
+      max-width: 2000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+      gap: 30px
+    }
+
+    img {
+      height: 600px;
+      width: 600px
+    }
+  </style>
+</head>
+<body>
+  <h1>Gallery</h1>
+  <div class="container">
+    <img src="images/elephant.jpg" alt="Elephant">
+    <img src="images/flamingo.jpg" alt="Elephant">
+    <img src="images/fox.jpg" alt="Elephant">
+    <img src="images/giraffe.jpg" alt="Elephant">
+    <img src="images/lion.jpg" alt="Elephant">
+    <img src="images/rabbit.jpg" alt="Elephant">
+  </div>
+</body>
+</html>
